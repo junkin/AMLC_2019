@@ -8,8 +8,10 @@ cd AMLC_2019
 
 
 ### launch the container - TRT first
-./launch_trt.sh
 
+~/AMLC_2019$ ./launch_trt.sh
+root@d60afd88d87a:/workspace# cd /data
+root@d60afd88d87a:/data# source setup_trt_container.sh
 
 This container fwds ports 8081 for the jupyter notebooks.
 
