@@ -6,7 +6,7 @@ Navigate to the EC2 dashboard and perform the following:
 1. select launch instance.
 2. for your AMI select "My ami's" and check the box "shared with me"
 3. select the NVDA_WORKSHOP_2019
-choose a p3.2xlarge instance type
+35. choose a p3.2xlarge instance type
 4. edit storage - expand to 100GB
 5. add tags - for key use name, for value alias.  use(IE Scot, sjunkin@)
 6. select create new key - use your alias for key name (IE sjunkin@) save keypair someplace.
