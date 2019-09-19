@@ -26,6 +26,11 @@ cd AMLC_2019
 ### launch amp tutorial
 ~/AMLC_2019$ ./launch_mxnet.sh
 
+root@d60afd88d87a:/workspace# cd /data
+
+root@d60afd88d87a:/workspace# ./run_jupyter.sh 8080
+
+
 ### launch container
 
 ~/AMLC_2019$ ./launch_trt.sh
@@ -34,7 +39,7 @@ root@d60afd88d87a:/workspace# cd /data
 
 root@d60afd88d87a:/data# source setup_trt_container.sh
 
-This container fwds ports 8080 for the jupyter notebooks.
+root@d60afd88d87a:/data# ./run_jupyter.sh 8080
 
 ### launch the TF container
 ~/AMLC_2019$ ./launch_tensorflow_trt.sh
